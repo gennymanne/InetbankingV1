@@ -1,0 +1,4 @@
+com\inetbanking\testcases\LoginTest.class
+com\inetbanking\testcases\TC_DataProvider.class
+com\inetbanking\pageObjects\BaseClass.class
+com\inetbanking\pageObjects\Reporting.class

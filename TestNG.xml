@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name ="inetbankingV1">
+    <listeners>
+        <listener class-name="com.inetbanking.pageObjects.Reporting"/>
+    </listeners>
+    <test name="Bankingapp test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <!--<class name="com.inetbanking.testcases.LoginTest"/>-->
+            <class name="com.inetbanking.testcases.TC_DataProvider"/>
+        </classes>
+    </test>
+</suite>
